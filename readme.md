@@ -1,0 +1,1 @@
+# Open [project documentation](./Dokumentacja-projektu.pdf) to see details!
