@@ -21,4 +21,7 @@ class Block:
 
     def flip(self):
         self.height, self.width = self.width, self.height
-        self.orientation = 1 if self.height >= self.width else 0
+        self.orientation = 1 if self.orientation==0 else 0
+
+    def __str__(self) -> str:
+        return f"Block:{self.id}, h:{self.height}, w:{self.width}, pos:{self.pos}, orientation:{self.orientation}"
